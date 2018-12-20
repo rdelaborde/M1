@@ -1,0 +1,83 @@
+@import 'compass';
+
+$blue:rgb(255,110,168);
+$grey:rgba(255,255,255,0.6);
+$main-color:$blue;
+$second-color:$grey;
+
+$main-font:montserrat;
+$second-font:poppins;
+
+$screen-xs:420px;
+$screen-sm:768px;
+$screen-md:992px;
+$screen-lg:1200px;
+
+@mixin transform($property){
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+@mixin background($repeat, $position, $size){
+  background-repeat: $repeat;
+  background-position: $position;
+  background-color: $size;
+}
+
+.bg-image{
+  @include background(repeat, center, cover);
+}
+
+a{
+  color:black;
+}
+
+body{
+  font-family: $main-font;
+}
+
+p{
+  font-family: $second-font;
+}
+
+.menu-main{
+  .item-menu{
+    font-size: 12px;
+    @media(max-width: $screen-xs){
+      font-size: 11px;
+    }
+      a{
+        color: black;
+        font-family: $second-font;
+        &:hover{
+          text-decoration: underline;
+        }
+        &:active{
+          text-decoration: underline;
+        }
+      }
+      i{
+        font-size: 11px;
+      }
+      span{
+
+      }
+  }
+}
+
+.section-home{
+  @include display-flex();
+  h2{
+    font-size: 22px;
+    &.main-title{
+      text-decoration: underline;
+    }
+    &:before{
+      content:"";
+    }
+    &:after{
+      content:".";
+    }
+  }
+}

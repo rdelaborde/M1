@@ -1,0 +1,11 @@
+.padding-block{
+  &--small{
+    padding:20px 0;
+  }
+  &--medium{
+    padding:40px 0;
+  }
+  &--large{
+    padding:60px 0;
+  }
+}

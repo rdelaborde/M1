@@ -1,0 +1,23 @@
+.btn-color{
+  &--blue{
+    background-color: blue;
+  }
+  &--red{
+    background-color: red;
+  }
+  &--grey{
+    background-color: grey;
+  }
+}
+
+.btn-size{
+  &--sm{
+    font-size: 12px;
+  }
+  &--md{
+    font-size: 14px;
+  }
+  &--lg{
+    font-size: 16px;
+  }
+}

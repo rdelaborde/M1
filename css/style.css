@@ -1,22 +1,56 @@
-.menu-main .item-menu {
-  font-size: 12px;
-}
-.menu-main .item-menu a {
-  color: black;
-}
-.menu-main .item-menu i {
-  font-size: 11px;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* line 1, ../sass/base/_base.scss */
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.section-home h2 {
-  font-size: 22px;
+/* line 5, ../sass/base/_base.scss */
+p {
+  font-family: "Open Sans", sans-serif;
 }
-.section-home h2.main-title {
-  text-decoration: underline;
+
+/* line 1, ../sass/layout/_header.scss */
+.logo {
+  width: 150px;
+  height: 50px;
 }
-.section-home h2:before {
-  content: "";
+
+/* line 2, ../sass/theme/_button.scss */
+.btn-color--blue {
+  background-color: blue;
 }
-.section-home h2:after {
-  content: ".";
+/* line 5, ../sass/theme/_button.scss */
+.btn-color--red {
+  background-color: red;
+}
+/* line 8, ../sass/theme/_button.scss */
+.btn-color--grey {
+  background-color: grey;
+}
+
+/* line 14, ../sass/theme/_button.scss */
+.btn-size--sm {
+  font-size: 12px;
+}
+/* line 17, ../sass/theme/_button.scss */
+.btn-size--md {
+  font-size: 14px;
+}
+/* line 20, ../sass/theme/_button.scss */
+.btn-size--lg {
+  font-size: 16px;
+}
+
+/* line 2, ../sass/theme/_padding.scss */
+.padding-block--small {
+  padding: 20px 0;
+}
+/* line 5, ../sass/theme/_padding.scss */
+.padding-block--medium {
+  padding: 40px 0;
+}
+/* line 8, ../sass/theme/_padding.scss */
+.padding-block--large {
+  padding: 60px 0;
 }
