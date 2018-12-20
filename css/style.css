@@ -1,0 +1,22 @@
+.menu-main .item-menu {
+  font-size: 12px;
+}
+.menu-main .item-menu a {
+  color: black;
+}
+.menu-main .item-menu i {
+  font-size: 11px;
+}
+
+.section-home h2 {
+  font-size: 22px;
+}
+.section-home h2.main-title {
+  text-decoration: underline;
+}
+.section-home h2:before {
+  content: "";
+}
+.section-home h2:after {
+  content: ".";
+}

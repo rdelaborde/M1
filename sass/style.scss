@@ -1,0 +1,28 @@
+@import 'compass';
+
+.menu-main{
+  .item-menu{
+    font-size: 12px;
+      a{
+        color: black;
+      }
+      i{
+        font-size: 11px;
+      }
+  }
+}
+
+.section-home{
+  h2{
+    font-size: 22px;
+    &.main-title{
+      text-decoration: underline;
+    }
+    &:before{
+      content:"";
+    }
+    &:after{
+      content:".";
+    }
+  }
+}
